@@ -1,50 +1,22 @@
-# Welcome to your Expo app 👋
+🎯 Problem Statement
+Many existing educational or assessment tools for children with learning challenges, visual tracking difficulties, or attention-related issues are either too clinical or unengaging. There's a gap in accessible, gamified tools that can evaluate visual cognition while also being fun and approachable for young users.
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+💡 Solution
+Vision Quest is an interactive mobile app designed to assess and enhance children's visual attention, color recognition, and letter identification skills through engaging mini-games. Built with React Native + Expo Router, it provides a seamless experience while tracking user performance across two main tests:
 
-## Get started
+🟦 Color Quest – Tests the child’s ability to recognize and react to different colors in a timed challenge.
 
-1. Install dependencies
+🔤 Letter Hunt – Challenges the user to find specific letters hidden among distractions.
 
-   ```bash
-   npm install
-   ```
+At the end of both tests, results are presented visually using a bar graph, giving both kids and parents/educators a clear idea of performance in each category.
 
-2. Start the app
+Key Features
+🎮 Game-like interface to keep kids engaged while testing cognitive skills.
+📊 Results Visualization via bar graphs for easy interpretation of test scores.
 
-   ```bash
-   npx expo start
-   ```
+📈 Future Improvements
+- Add real-time AI-based eye tracking for more detailed interaction metrics.
+- Store progress using local storage or backend integration.
+- Add more mini-games targeting different cognitive skills (e.g., memory, sequencing).
 
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Overall, this project is inspired by the need for more accessible, gamified cognitive assessment tools for kids – especially those who may find traditional testing environments intimidating or boring.
